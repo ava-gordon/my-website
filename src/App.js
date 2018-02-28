@@ -11,9 +11,27 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Header />
-        <Section title="About Me" color='teal'></Section>
-        <Section title="My Work" color='orange'></Section>
-        <Section title="Music" color='deepblue'></Section>
+        <Section title="ABOUT ME">
+          <div className='about-subsection'>
+            <img className='about-image' src={require('./images/fiat_slug.png')} />
+            <div className='about-text text-right'>
+              After four magical, but challenging, years, I graduated from UC Santa Cruz in 2015, with a degree in Computer Science. 
+            </div>
+
+          </div>
+          <div className='about-subsection'>
+            <div className='about-text'>
+              I worked at a small B2B marketing company called Wheelhouse, before moving on to cut my teeth on some full stack dev work at GoFundMe.
+            </div>
+            <img className='about-image' src={require('./images/gofundme.png')} />
+          </div>
+          <div className='about-subsection'>
+            <img />
+            Currently looking for the next adventure!
+          </div>
+        </Section>
+        <Section title="MY WORK" color='orange'></Section>
+        <Section title="MUSIC" color='deepblue'></Section>
       </div>
     );
   }

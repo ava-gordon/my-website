@@ -5,7 +5,8 @@ const Header = function(props){
 		<div className="header-container">
 			<div className="header-color">
 				<div className="header-text-container">
-					<h1 className="header-title">big ol nerd</h1>
+					<h1 className="header-title">BENJAMIN GORDON</h1>
+					<h2 className="header-title">I'm a full-stack web developer based in the SF Bay area.</h2>
 				</div>
 			</div>
 		</div>

@@ -1,13 +1,26 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto',  sans-serif;
   font-weight: 400;
+}
+
+h1, h3, h4, h5, h6 {
+	font-family: 'Open Sans',  sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 400;
 }
 
 h3 {
 	margin: 0; 
-	color: white;
+	font-size: 28px;
 }
 
 .nav {
@@ -36,6 +49,8 @@ h3 {
 	height: 100%;
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 	margin-left: 100px;
 	margin-right: 100px;
 }
@@ -46,7 +61,41 @@ h3 {
 
 .section-container {
 	min-height: 500px;
+	padding: 16px;
 }
+
+.section-title {
+	padding-top: 40px;
+}
+
+.section-content {
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.about-subsection {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.about-image {
+	max-height: 150px;
+	max-width: 200px;
+	float: left;
+}
+
+.text-right {
+}
+
+.about-text {
+	padding-left: 50px;
+	padding-right: 50px;
+	width: 40%;
+}
+
 
 /* Colors */
 .teal {
