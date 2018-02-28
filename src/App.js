@@ -12,7 +12,7 @@ class App extends Component {
         <Nav />
         <Header />
         <Section title="About Me" color='teal'></Section>
-        <Section title="My Work" color='offwhite'></Section>
+        <Section title="My Work" color='orange'></Section>
         <Section title="Music" color='deepblue'></Section>
       </div>
     );
