@@ -4,7 +4,7 @@ import classNames from 'classnames';
 const Section = function(props) {
 
 	return (
-		<div className={classNames('section-container', props.color)}>
+		<div className={classNames('section-container')}>
 			<div className="section-title">
 				<h3>{props.title}</h3>
 			</div>

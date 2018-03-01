@@ -24,8 +24,10 @@ h3 {
 }
 
 .nav {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: rgb(125, 37, 37);
+	color: white;
 }
 
 .nav a{
@@ -61,11 +63,12 @@ h3 {
 
 .section-container {
 	min-height: 500px;
-	padding: 16px;
 }
 
 .section-title {
-	padding-top: 40px;
+	padding: 24px;
+	background-color: rgb(125, 37, 37);
+	color: white;
 }
 
 .section-content {
@@ -94,18 +97,4 @@ h3 {
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 40%;
-}
-
-
-/* Colors */
-.teal {
-	background-color: rgb(85, 180, 198);
-}
-
-.deepblue {
-	background-color: rgb(1, 48, 89);
-}
-
-.orange {
-	background-color: rgb(255, 176, 58);
 }

@@ -30,8 +30,8 @@ class App extends Component {
             Currently looking for the next adventure!
           </div>
         </Section>
-        <Section title="MY WORK" color='orange'></Section>
-        <Section title="MUSIC" color='deepblue'></Section>
+        <Section title="MY WORK"></Section>
+        <Section title="MUSIC"></Section>
       </div>
     );
   }
