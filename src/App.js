@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Nav />
         <Header />
-        <Section title="ABOUT ME">
+        <Section title="ABOUT ME" imgUrl={require('./images/tahoe.jpg')}>
           <div className='about-subsection'>
             <img className='about-image' src={require('./images/fiat_slug.png')} />
             <div className='about-text text-right'>
@@ -30,8 +30,13 @@ class App extends Component {
             Currently looking for the next adventure!
           </div>
         </Section>
-        <Section title="MY WORK"></Section>
-        <Section title="MUSIC"></Section>
+        <Section title="MY WORK" imgUrl={require('./images/olympic_rainforest.jpg')}>
+          <div className="about-subsection">
+            
+          </div>
+        </Section>
+        <Section title="MUSIC" imgUrl={require('./images/nicolas_jaar.jpg')}>
+        </Section>
       </div>
     );
   }
